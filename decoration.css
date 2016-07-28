@@ -1,0 +1,349 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  width: 100%;
+}
+
+.banner_and_nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.header {
+  border: 3px solid #004d80;
+  background-color: #000066;
+  width: 100%;
+  text-align: center;
+}
+
+.header img {
+  width: 200px;
+}
+
+#header-image {
+  width: 32%;
+  display: inline-block;
+}
+
+.header-top-left {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+}
+
+.header-bottom-right {
+  font-family: cursive;
+  color: white;
+  font-weight: 80;
+  margin: 0;
+  text-align: right;
+}
+
+.header-bottom-left {
+  font-family: cursive;
+  color: white;
+  font-weight: 80;
+  margin: 0;
+  text-align: left;
+  display: inline-block;
+  width: 33%;
+}
+
+.header-right {
+  color: white;
+  font-weight: 100;
+  font-family: cursive;
+  text-align: right;
+  display: inline-block;
+  margin: 0;
+  width: 33%;
+  height: 100%;
+}
+
+.header-top-right {
+  margin: 0;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+nav {
+  background-color: #b3e0ff;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav > ul > li > a {
+  color: white;
+  background-color: #b3e0ff;
+  display: block;
+  line-height: 2em;
+  padding: 0.5em 0.5em;
+  text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+  color: blue;
+}
+
+.page_body {
+  position: absolute;
+  top: 208px;
+  z-index: -1;
+  width: 100%;
+}
+
+h1 {
+  font-family: cursive, sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: 'Pontano Sans', sans-serif;
+}
+
+p a:hover {
+  color: blue;
+}
+
+.fancy {
+  vertical-align: top;
+  margin: 8px;
+}
+
+.title h1 {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.fancy {
+  display: inline-block;
+  width: 70%;
+}
+
+.testimonials {
+  width: 300px;
+  background-color: #cce6ff;
+  display: inline-block;
+  height: 409.88px;
+  overflow: auto;
+  margin-top: 40px;
+  border-radius: 4px;
+}
+
+.testimonials h3 {
+  font-family: cursive;
+  text-align: center;
+}
+
+.testimonials p {
+  padding: 10px;
+}
+
+.video_block {
+  margin: 8px;
+  background-color: #cce6ff;
+  width: 65%;
+  border-radius: 30px;
+  padding: 8px;
+  text-align: center; 
+}
+
+.video_block h3 {
+  font-family: cursive;
+  padding: 8px;
+  margin: 0;
+}
+
+.video_description {
+  display: inline-block;
+}
+
+.video {
+  text-align: right;
+  margin: 0;
+  display: inline-block;
+}
+
+.Marianne {
+  display: inline-block;
+  margin: 8px 8px 16px 8px;
+  vertical-align: top;
+  font-family: 'Pontano Sans', sans-serif;
+}
+
+.Marianne img {
+  float: left;
+  padding-right: 8px;
+}
+
+.bio {
+  font-family: 'Pontano Sans', sans-serif;
+  text-align: left;
+}
+
+.bio p {
+  padding-left: 8px;
+  margin: 0;
+  vertical-align: top;
+}
+
+.Nancy {
+  display: inline-block;
+  margin: 16px 8px 8px 8px;
+  vertical-align: top;
+  font-family: 'Pontano Sans', sans-serif;
+}
+
+.Nancy img {
+  float: left;
+  padding-right: 8px;
+}
+
+.research-info {
+  width: 100%;
+  text-align: center;
+}
+
+.neurofeedback-article-one {
+  background-color: #ff6600;
+  color: white;
+  border-radius: 5px;
+  width: 300px;
+  margin: 8px;
+  display: inline-block;
+}
+
+.neurofeedback-article-one h3 {
+  font-weight: lighter;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.neurofeedback-article-one h5 {
+  font-weight: lighter;
+  text-align: center;
+  margin: 0;
+  padding-top: 6px;
+}
+
+.neurofeedback-article-one p {
+  padding: 6px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.citation {
+  font-size: 12px;
+  margin: 0;
+}
+
+.neurofeedback-article-two {
+  background-color: #007acc;
+  color: white;
+  border-radius: 5px;
+  width: 320px;
+  margin: 8px;
+  display: inline-block;
+}
+
+.neurofeedback-article-two h3 {
+  font-weight: lighter;
+  margin-bottom: 0;
+  margin-top: 6px;
+  text-align: center;
+  padding: 6px;
+}
+
+.neurofeedback-article-two h5 {
+  font-weight: lighter;
+  text-align: center;
+  margin: 0;
+  padding-top: 6px;
+}
+
+.neurofeedback-article-two p {
+  padding: 6px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.neurofeedback-article-three {
+  background-color: #00e600;
+  color: white;
+  border-radius: 5px;
+  width: 320px;
+  margin: 8px;
+  display: inline-block;
+}
+
+.neurofeedback-article-three h3 {
+  font-weight: lighter;
+  margin-bottom: 0;
+  margin-top: 6px;
+  text-align: center;
+  padding: 6px;
+}
+
+.neurofeedback-article-three h5 {
+  font-weight: lighter;
+  text-align: center;
+  margin: 0;
+  padding-top: 6px;
+}
+
+.neurofeedback-article-three p {
+  padding: 6px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.table {
+  display: table;
+  border-spacing: 40px;
+  margin-right: 75px;
+  margin-left: 75px;
+}
+
+.question_groups {
+  display: table-row;
+}
+
+.individual_question {
+  background-color: #3385ff;
+  border-radius: 8px;
+  width: 50%;
+  text-align: center;
+  border: 2px;
+  display: table-cell;
+  color: white;
+  padding: 2px;
+}
+
+.contact {
+  width: 100%;
+  margin: 8px;
+}
+
+.question {
+  font-family: 'Pontano Sans', sans-serif;
+  color: white;
+  font-weight: bolder;
+}
+
+.form {
+  margin: 8px;
+}
