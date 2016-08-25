@@ -8,13 +8,13 @@ html, body {
 }
 
 .banner_and_nav {
-  position: fixed;
   width: 100%;
   top: 0;
+  position: fixed;
+  z-index: 1;
 }
 
 .header {
-  border: 3px solid #004d80;
   background-color: #000066;
   width: 100%;
   text-align: center;
@@ -65,10 +65,10 @@ html, body {
 }
 
 .header-top-right {
-  margin: 0;
-  position: absolute;
+  margin-bottom: 90px;
   top: 5px;
   right: 5px;
+  margin-top: 4px;
 }
 
 nav {
@@ -100,11 +100,80 @@ nav > ul > li > a:hover {
   color: blue;
 }
 
+.company_name {
+  color: white;
+  display: inline-block;
+  list-style-type: none;
+  font-size: 22px;
+  font-family: cursive, sans-serif;
+  width: 68%;
+  text-align: right;
+}
+
 .page_body {
   position: absolute;
-  top: 208px;
+  top: 48px; <!--was 208px-->
   z-index: -1;
   width: 100%;
+}
+
+.banner_frame {
+  width: 100%;
+  background-color: #001a4d;
+}
+
+.logo_image {
+  width: 24.5%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #001a4d;
+  padding-left: 10px;
+}
+
+.logo_image img {
+  display: inline-block;
+  width: 294px;
+  padding-top: 30px;
+}
+
+.rotating_banner {
+  background-color: #001a4d;
+  width: 75%;
+  text-align: left;
+  display: inline-block;
+  padding-right: 0;
+  vertical-align: top;
+}
+
+.pictures_in_banner {
+  width: 75%;
+  display: inline-block;
+  padding: 4px;
+  padding-bottom: 0;
+}
+
+.rotating_words {
+  text-align: center;
+  width: 23%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 2px;
+}
+
+.slide_title {
+  color: white;
+  font-family: cursive, sans-serif;
+  margin-top: 8px;
+  margin-bottom: 6px;
+  font-size: 22px;
+}
+
+.slide_caption {
+  color: white;
+  font-family: "Lora", sans-serif;
+  font-size: 15px;
+  margin-top: 70px;
+  font-weight: lighter;
 }
 
 h1 {
@@ -123,16 +192,22 @@ p a:hover {
 .fancy {
   vertical-align: top;
   margin: 8px;
+  margin-left: 20px;
+  display: inline-block;
+  width: 70%;
+}
+
+.fancy p {
+  margin-top: 0;
+}
+
+.body_text {
+  vertical-align: top;
 }
 
 .title h1 {
   margin-bottom: 0;
   text-align: center;
-}
-
-.fancy {
-  display: inline-block;
-  width: 70%;
 }
 
 .testimonials {
@@ -141,7 +216,7 @@ p a:hover {
   display: inline-block;
   height: 409.88px;
   overflow: auto;
-  margin-top: 40px;
+  margin-top: 0;
   border-radius: 4px;
 }
 
@@ -157,10 +232,10 @@ p a:hover {
 .video_block {
   margin: 8px;
   background-color: #cce6ff;
-  width: 65%;
+  width: 48%;
   border-radius: 30px;
   padding: 8px;
-  text-align: center; 
+  text-align: center;
 }
 
 .video_block h3 {
@@ -171,6 +246,11 @@ p a:hover {
 
 .video_description {
   display: inline-block;
+  width: 80%;
+}
+
+.video_description p {
+  margin-top: 0;
 }
 
 .video {
